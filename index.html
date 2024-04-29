@@ -9,56 +9,49 @@
   
 <style>
   
-div.gallery {
-  margin: 50px;
-  border: 5px solid #ccc;
+* {
+  box-sizing: border-box;
+}
+
+.column {
   float: left;
-  width: 200px;
+  width: 33.33%;
+  padding: 5px;
 }
 
-div.gallery:hover {
-  border: 5px solid #777;
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-
-div.gallery img {
-  width: 150%;
-  height: auto;
-}
-
-div.desc {
-  padding: 30px;
-  text-align: center;
-}
+  
 </style>
 </head>
 <body>
 
-<div class="gallery">
+<div class="row">
+  <div class="column">
   <a target="_blank" href="img_5terre.jpg">
     <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
 </div>
 
-<div class="gallery">
+<div class="column">
   <a target="_blank" href="https://vcori2.github.io/PROJECT_1_vcori2/">
     <img src="https://github.com/vcori2/personal-portfolio/blob/main/Portfolio%20pictures/p.png?raw=true" alt="Pookie Poem" width="600" height="400">
-  </a>
-  <div class="desc">Project 1 february 2024</div>
+    
 </div>
 
-<div class="gallery">
+<div class="column">
   <a target="_blank" href="https://vcori2.github.io/Home/">
     <img src="https://github.com/vcori2/personal-portfolio/blob/main/Portfolio%20pictures/c.png?raw=true" alt="Home" width="500" height="300">
-  </a>
-  <div class="desc">project 2 March 2024</div>
+ 
 </div>
 
-<div class="gallery">
+<div class="column">
   <a target="_blank" href="https://youtu.be/jgwmUBBzrCg">
     <img src="https://github.com/vcori2/personal-portfolio/blob/main/Portfolio%20pictures/p3.png?raw=true" alt="Green Screen" width="600" height="400">
-  </a>
-  <div class="desc">project 3 April 2024</div>
+
 </div>
 
   
