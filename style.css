@@ -19,5 +19,6 @@
 }
 
 body {
-  background-color: MediumSeaGreen;
+   background-color: green;
+  opacity: 0.3;
 }
