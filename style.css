@@ -1,3 +1,6 @@
+body {
+  background-color: lightblue;
+}
 
 /* Create three equal columns that float next to each other */
 .column {
