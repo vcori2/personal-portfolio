@@ -1,3 +1,8 @@
+body {
+   background-color: green;
+  opacity: 0.3;
+}
+
 /* Create three equal columns that float next to each other */
 .column {
   float: left;
@@ -16,14 +21,4 @@
   .column {
     width: 100%;
   }
-}
-
-body {
-   background-color: green;
-  opacity: 0.3;
-}
-
-div {
-  background-color: green;
-  opacity: 0.3;
 }
