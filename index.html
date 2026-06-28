@@ -8,6 +8,17 @@
   <h3>IDEA 120 2023-24</h3>
   
 <style>
+
+  .dim-image {
+      /* Controls how fast the dimming effect happens (0.3 seconds) */
+      transition: filter 0.3s ease; 
+    }
+
+    /* 100% is normal brightness. 50% makes it half as bright (dimmed) */
+    .dim-image:hover {
+      filter: brightness(50%); 
+    }
+  
  * {
   box-sizing: border-box;
 }
