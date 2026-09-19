@@ -21,3 +21,17 @@ body {
   display: table;
   clear: both;
 }
+
+/* Container scales to columns side-by-side on desktop */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Stack vertically on screens under 768px */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
